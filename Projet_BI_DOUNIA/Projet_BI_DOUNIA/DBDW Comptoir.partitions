@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="00696767-ae4a-4edb-9967-cb3a5755e14d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DBDW Comptoir</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Dim Client</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="98af8a02-0336-4c7f-997d-69d0eb5b4488">
+          <ID>Dim Client</ID>
+          <Name>Dim Client</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ea867710-03d8-45af-a0f0-03563f98b7b9">
+            <DataSourceViewID>DBDW Comptoir</DataSourceViewID>
+            <TableID>dbo_Dim_Client</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Produit</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="7676bea6-78f6-41d2-92c1-54ab799ffc7a">
+          <ID>Dim Produit</ID>
+          <Name>Dim Produit</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e1c8fdfb-f174-48b9-9ca2-ff0682510552">
+            <DataSourceViewID>DBDW Comptoir</DataSourceViewID>
+            <TableID>dbo_Dim_Produit</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Temps</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8e2d57ac-44aa-484d-8bf2-0170b8057297">
+          <ID>Dim Temps</ID>
+          <Name>Dim Temps</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="76fdf7c7-bbdd-4ee7-b6c9-b5f0dbfc7f84">
+            <DataSourceViewID>DBDW Comptoir</DataSourceViewID>
+            <TableID>dbo_Dim_Temps</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fait Vente</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c0a63734-b021-42ab-9888-44679ff79da5">
+          <ID>Fait Vente</ID>
+          <Name>Fait Vente</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8a67710b-8f12-4c66-abd0-c07977369be6">
+            <DataSourceViewID>DBDW Comptoir</DataSourceViewID>
+            <TableID>dbo_Fait_Vente</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

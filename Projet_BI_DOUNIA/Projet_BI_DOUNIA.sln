@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Projet_BI_DOUNIA", "Projet_BI_DOUNIA\Projet_BI_DOUNIA.dwproj", "{EEF218B2-683E-FFEC-A857-D42F05038709}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEF218B2-683E-FFEC-A857-D42F05038709}.Development|Default.ActiveCfg = Development
+		{EEF218B2-683E-FFEC-A857-D42F05038709}.Development|Default.Build.0 = Development
+		{EEF218B2-683E-FFEC-A857-D42F05038709}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0E1E79F-A71F-46D5-93A3-C488CFC9FE7C}
+	EndGlobalSection
+EndGlobal

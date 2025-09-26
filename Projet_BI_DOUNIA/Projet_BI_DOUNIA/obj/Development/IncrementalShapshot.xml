@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Projet_BI_DOUNIA</Database>
+    <Server>DESKTOP-7TF76C6</Server>
+    <ConnectionString>Data Source=DESKTOP-7TF76C6;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>oHk79LFivN5T1mXTfPMojp7C+YM=6/20/2025 11:48:46 PM6/20/2025 11:48:46 PM</TimeStamp>
+        <ID>
+          <String>DBDW Comptoir</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ghSWgY45Qm8QfqWuOqjY8bEfuSI=6/21/2025 11:49:45 AM6/20/2025 11:49:02 PM</TimeStamp>
+        <ID>
+          <String>DBDW Comptoir</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YDDfq+0DQqRh1e0z2mmnu72fjW4=6/21/2025 11:49:45 AM6/20/2025 11:49:13 PM</TimeStamp>
+        <ID>
+          <String>Dim Client</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WyFrl8BqpBor7mJpb/FuoEUHc9s=6/20/2025 11:49:45 PM6/20/2025 11:49:13 PM</TimeStamp>
+        <ID>
+          <String>Dim Produit</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rRmfc+WSIELsgi4JnknvfI8+sTs=6/20/2025 11:49:55 PM6/20/2025 11:49:13 PM</TimeStamp>
+        <ID>
+          <String>Dim Temps</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>i78wEpPZUfP1oF4WIDcLEgKne08=6/20/2025 11:51:32 PM6/20/2025 11:49:13 PMwhU4HN58+HA9DENbYIQM791G81I=6/20/2025 11:49:13 PM6/20/2025 11:49:13 PM</TimeStamp>
+        <ID>
+          <String>DBDW Comptoir</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>lpOmcSUHfMCU/RFEHOe+ZddKAD8=6/20/2025 11:42:44 PM6/20/2025 11:42:44 PM</TimeStamp>
+      <ID>
+        <String>Projet_BI_DOUNIA</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-06-21T10:51:15.71Z</LastDeployed>
+</DeploymentSnapshot>
